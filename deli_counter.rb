@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def line(array)
   if array.size >= 1
    output = "The line is currently:"
@@ -19,5 +20,11 @@ def now_serving(array)
     puts "Currently serving #{array.shift}."
   else
     puts "There is nobody waiting to be served!"
+=======
+katz_deli=[]
+def line(array)
+  if array.size == 0
+  p "The line is currently empty."
+>>>>>>> c6486980187490c715bb4606278f8920535e2f50
   end
 end
